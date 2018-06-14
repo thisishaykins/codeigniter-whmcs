@@ -9,9 +9,9 @@
 */
 
 
-define('WHMCS_URL', 'http://gator-loc.hosttractor.com/includes/api.php');
-define('WHMCS_USERNAME', 'z1GtwURoIAkzUYyW4NF5aGHS6qfgrizN'); // username
-define('WHMCS_PASSWORD', '1ur9qrMwRCVAOJzJMGsmK8MbkVaXKHoF'); //password 
+define('WHMCS_URL', '');
+define('WHMCS_USERNAME', ''); // username
+define('WHMCS_PASSWORD', ''); //password 
 // define('WHMCS_PASSWORD', md5('password')); //password should be in md5
 
 class Whmcs_base{
@@ -28,7 +28,7 @@ class Whmcs_base{
 	      exit;
 	    }
 
-	    $url										= WHMCS_URL;
+	    $url						= WHMCS_URL;
 	    $params['username'] 		= WHMCS_USERNAME;
 	    $params['password'] 		= WHMCS_PASSWORD;
 	    // $params['accesskey'] 		= 's9!e8@c7u6r5e'; //secrete key
